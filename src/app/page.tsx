@@ -1,10 +1,10 @@
 "use client";
 
-import PlotlyApp from "../components/PlotlyApp";
+import Plotly2D from "../components/Plotly2D";
 
 export default function Home() {
   return (
-    <PlotlyApp
+    <Plotly2D
       data={[
         {
           x: [1, 2, 3],
